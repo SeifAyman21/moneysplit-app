@@ -1,0 +1,30 @@
+﻿name: moneysplit
+description: 3-Way Money Allocation Manager (offline-first)
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+  flutter: ">=3.10.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_riverpod: ^2.5.1
+  equatable: ^2.0.5
+  sqflite: ^2.3.3+1
+  path: ^1.9.0
+  intl: ^0.19.0
+  fl_chart: ^0.69.0
+  collection: ^1.18.0
+  uuid: ^4.4.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
